@@ -17,7 +17,7 @@ maven { url 'https://jitpack.io' }
 Then add the dependency:
 
 ```gradle
-implementation 'com.github.JustinGuedes:redactable:0.1.0'
+implementation 'com.github.JustinGuedes:redactable-android:0.1.0'
 ```
 
 ## Usage
