@@ -52,6 +52,10 @@ val loadable = viewModel.loadable.collectAsState()
 
 LoadableView(loadable.value) { data ->
   // Use data
+  
+  Text(text = "${data)", 
+       modifier = Modifier.redactable()
+   ) 
 }
 ```
 
